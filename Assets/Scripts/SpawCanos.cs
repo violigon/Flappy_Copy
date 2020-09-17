@@ -8,9 +8,9 @@ public class SpawCanos : MonoBehaviour
 
     public float altura;
 
-    public float tempo_max;
+    public float tempo_max = 1f;
 
-    private float tempo;
+    private float tempo = 0f;
     
     // Start is called before the first frame update
     void Start()
@@ -26,7 +26,8 @@ public class SpawCanos : MonoBehaviour
         if(tempo > tempo_max){
             GameObject novoCano = Instantiate(cano);
             novoCano.transform.position = transform.position + new Vector3(0,Random.Range(-altura,altura),0);
-            Destroy(novoCano,20f);
+            Destroy(novoCano,15f);
+            tempo =0;
         }
         tempo += Time.deltaTime;
     }
