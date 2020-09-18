@@ -6,6 +6,8 @@ public class passaro : MonoBehaviour
 {
     public float velocidade = 1f;
     private Rigidbody2D rig;
+
+    public GameObject GameOver;
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
@@ -18,5 +20,11 @@ public class passaro : MonoBehaviour
             rig.velocity = Vector2.up * velocidade;
 
         }
+    }
+    private void OnCollisionEnter2D(Collision2D colisor) {
+        
+        GameOver.SetActive(true);
+        Time.timeScale = 0;
+
     }
 }
