@@ -364,9 +364,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 57
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 241ff21350426164cbc5a20629edcd8b, type: 3}
+    m_FontSize: 48
+    m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 10
     m_MaxSize: 70
@@ -1446,7 +1446,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cano: {fileID: 9051880389365920760, guid: bef1838249082ca4fb62b5e0b7d50e18, type: 3}
   altura: 1.5
-  tempo_max: 1.5
+  tempo_max: 1.8
 --- !u!4 &1975837808
 Transform:
   m_ObjectHideFlags: 0
