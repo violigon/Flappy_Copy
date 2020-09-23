@@ -914,13 +914,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 962465311}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.21, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: 0.10147915, w: 0.99483764}
+  m_LocalPosition: {x: -1.21, y: -1.0698731e-10, z: 0}
   m_LocalScale: {x: 6.6043, y: 6.6043, z: 6.6043}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 11.649}
 --- !u!60 &962465315
 PolygonCollider2D:
   m_ObjectHideFlags: 0
